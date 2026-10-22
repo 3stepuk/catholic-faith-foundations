@@ -171,6 +171,14 @@ textarea::placeholder{color:var(--muted);font-style:italic}
 .back a{text-decoration:none;color:var(--muted)}
 .back a:hover{color:var(--accent-hi)}
 
+/* Reflect + Check (authored) */
+.reflect-q{font:500 1.15em/1.5 var(--serif);margin:0 0 calc(2.5*var(--u));color:var(--ink)}
+.check{margin-top:calc(2.5*var(--u))}
+.check .modern-q{margin:0;border-top:0;border-bottom:1px solid var(--rule)}
+.check .modern-q:first-child{border-top:1px solid var(--rule)}
+.check .modern-q summary{padding:calc(2*var(--u)) 0}
+.check .modern-q p{color:var(--muted);font-style:italic;margin:0 0 calc(2*var(--u))}
+
 /* Check — calm ticks */
 .checklist{list-style:none;margin:calc(2.5*var(--u)) 0;padding:0}
 .checklist li{border-bottom:1px solid var(--rule)}
